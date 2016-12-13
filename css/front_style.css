@@ -1,0 +1,249 @@
+
+.prod_box .sno {
+    background: #0069b4 none repeat scroll 0 0;
+    color: #fff;
+    float: left;
+    font-size: 16px;
+    height: auto;
+    min-height: 200px;
+    padding: 0 5px;
+    width: 20px;
+}
+
+.prod_box {
+    border: 1px solid #0069b4;
+    display: block;
+    margin-bottom: 10px;
+    overflow: auto;
+    padding: 5px;
+    height : auto;
+    min-height: 210px;
+   
+    width: 100%;
+    position: relative;
+}
+.prod_box .prod_detail {
+    float: left;
+    width: 90%;
+}
+.prod_box .plus_box {
+    text-align: center;
+    margin-top: 25px;
+    cursor: pointer;
+    display: none;
+}
+.prod_box .loading_box {
+    display: block;
+    text-align: center;
+    margin-top: 25px;
+    cursor: pointer;
+    display: none;
+}
+.prod_box.active_box .plus_box
+{
+    display: block;
+}
+.prod_box .prod_img_box {
+    float: left;
+    margin-left: 10px;
+    width: 100px;
+}
+.prod_box .prod_options {
+    float: left;
+     margin-left: 10px;
+}
+#planTotals {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #999999;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 200;
+}
+
+.totalsAmount {
+    margin: 0 auto;
+    max-width: 641px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+#planTotals p {
+    margin-left: 8%;
+    margin-top: 0;
+    text-align: left;
+    width: 39%;
+    float: left;
+    font-size: 14px;
+}
+.totals .cta {
+    float: right;
+    margin-right: 3px;
+}
+#planTotals .getQuote {
+    padding: 12px 80px 10px;
+}
+#planTotals .getQuote {
+    background: #0069b4 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: none;
+    white-space: normal !important;
+}
+
+.device_popup {
+   border: 1px solid #ccc;
+    height: 90%;
+    left: 5%;
+    position: fixed;
+    top: 5%;
+    width: 90%;
+    z-index: 100;
+    display: none;
+    background: #f2f2f2;
+
+}
+.device_popup_close
+{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+}
+.device_popup .loading_img
+{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+       
+}
+
+.device_popup .loading_img img
+{
+    height: 100%;
+    width: 100%;
+}
+
+.checkout_loading_img
+{
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    display: none;
+       
+}
+
+.checkout_loading_img img
+{
+    height: 100%;
+    width: 100%;
+}
+
+
+.device_popup_inner {
+    margin: 10px auto 0;
+    max-height: 90%;
+    width: 90%;
+}
+.device_list .device {
+    float: left;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.device_popup_txt
+{
+    font-size: 20px;
+    text-align: center;
+}
+.device_list {
+    position: absolute;
+    top: 150px;
+    width: 90%;
+}
+.device_type_list
+{
+    position: absolute;
+    top: 230px;
+    left: 100px;
+    width: 90%;
+    background: #ddd;
+    border: 1px solid #b2b2b2;
+    display: none;
+    padding: 15px;
+    box-shadow: 5px 5px 10px #000;
+        
+}
+.device_type_list .device_type
+{
+    float: left;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.device_type_popup_close
+{
+     height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+}
+.prod_detail_close {
+    height: 40px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 40px;
+    display: none;
+    cursor: pointer;
+}
+.filled_box .prod_detail_close {
+    display: block;
+    
+}
+
+input[type="text"].postcode
+{
+    width: 300px;
+}
+.pro_type
+{
+    cursor: pointer;
+}
+.product_inner
+{
+    margin-bottom: 10px;
+}
+.device_inner
+{
+    margin-bottom: 5px;
+    border: 1px dashed #ccc;
+}
+.order_detail
+{
+    background: #E5E7E9;
+    padding: 5px;
+}

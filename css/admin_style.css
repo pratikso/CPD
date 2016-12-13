@@ -1,0 +1,46 @@
+.cpd-setting-form table th{
+    
+    vertical-align: top;
+    width: 20%;
+    text-align: left;
+}
+.cpd-setting-form table td{
+    
+    vertical-align: top;
+    width: 70%;
+    text-align: left;
+}
+.cpd-setting-form td, .cpd-setting-form th {
+    padding: 10px 0;
+}
+.error_msg
+{
+    color: red;
+}
+
+
+.order_table tr.odd {
+    background: #ccc none repeat scroll 0 0;
+}
+.order_table tr.even {
+    background: #fff none repeat scroll 0 0;
+}
+.order_table th {
+    background: #000 none repeat scroll 0 0;
+    color: #fff;
+    padding: 3px 10px;
+}
+.order_table td
+{
+    padding: 5px 10px;
+}
+.order_detail_page .left_col
+{
+    width: 40%;
+    float: left;
+    margin-right: 20px;
+}
+.order_detail_page .right_col{width: 40%; float: left;}
+.long_txt{width: 400px; max-width: 100%;}
+.success_msg{color: green;font-weight: bold;}
+.error_msg {     color: red;     font-weight: bold; }
